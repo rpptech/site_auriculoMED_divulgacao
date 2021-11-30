@@ -56,6 +56,7 @@
     color: whitesmoke;
     line-height: 1.8;
     padding: 25px;
+    padding-bottom: 0;
     padding-left: 50px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -195,6 +196,7 @@ div.child{
 .rodape{
     text-align: left;
     background-color: rgba(102, 153, 255, .5);
+    line-height: 1.2;
 }
 
 
@@ -212,6 +214,7 @@ div.child{
 .div_btn_black{
     background-color: black;
     text-align: center;
+    padding: 20px;
 
 }
 .div_btn_white{
