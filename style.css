@@ -265,3 +265,44 @@ background-color: #4CAF50;
 color: white;
 
 }
+
+
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+  
+  /* Callout header */
+  .callout-header {
+    padding: 15px 15px;
+    background: #555;
+    font-size: 30px;
+    text-align: center;
+    color: chartreuse;
+  }
+  
+  /* Callout container/body */
+  .callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+  }
+  
+  /* Close button */
+  .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Change color on mouse-over */
+  .closebtn:hover {
+    color: lightgrey;
+  }
